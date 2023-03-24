@@ -1,0 +1,110 @@
+@media (max-width: 870px){
+  .vid-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+}
+
+@media (min-width: 871px) and (max-width: 1125px) {
+  .vid-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+}
+
+@media (min-width: 1126px){
+  .vid-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+}
+
+.thu{
+  position: relative;
+}
+
+.vidpic {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  bottom: 18px;
+  right: 5px;
+  padding: 3px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 14px;
+}
+
+.channel-preview {
+  position: relative;
+}
+
+.channel-info {
+  position: absolute;
+  display: flex;
+  background-color: white;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;  
+  box-shadow: 4px 5px 2px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.channel-preview:hover .channel-info{
+  opacity: 1;
+}
+
+.channel-info div{
+  margin-right: 10px;
+}
+.channel-info img{
+  height: 60px;
+  border-radius: 30px;
+}
+
+.channel-info p{
+  line-height: 24px;
+}
+
+.propic{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.title{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.creator {
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: rgb(96,96,96);
+}
+
+.stats {
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: rgb(96,96,96);
+}
